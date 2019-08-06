@@ -1,6 +1,14 @@
 <template>
-  <div class="hello">
-    <h1>help</h1>
+  <div class="d-flex justify-content-center align-items-center" :style="{width: width + 'px', height: height + 'px'}">
+    <div class="content-area">
+        <img src="@/assets/me.jpg" />
+        <p class="name">t-kuni</p>
+        <p>
+            <a href="https://twitter.com/t_kuni_"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/t-kuni"><i class="fab fa-github"></i></a>
+        </p>
+        <p>PHP, Laravel, Vue</p>
+    </div>
   </div>
 </template>
 
@@ -8,10 +16,16 @@
   export default {
     components: {},
     mounted() {
+        window.onresize = () => {
+            this.width = window.innerWidth;
+            this.height = window.innerHeight;
+        };
     },
     props     : {},
     data      : function () {
       return {
+          width: window.innerWidth,
+          height: window.innerHeight,
       }
     },
     computed  : {
@@ -22,4 +36,22 @@
 </script>
 
 <style scoped lang="scss">
+
+    .content-area {
+        border: 1px dashed #2c3e50;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+        box-shadow: 3px 3px 10px #2c3e50;
+    }
+
+    p.name {
+        margin-top: 1rem;
+    }
 </style>

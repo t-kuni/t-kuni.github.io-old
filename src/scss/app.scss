@@ -1,0 +1,14 @@
+@import 'variables';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap-vue/src/index.scss';
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $text-color;
+  font-size: $font-size-medium;
+  font-family: $font-family;
+}
