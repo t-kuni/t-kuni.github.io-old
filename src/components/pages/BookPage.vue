@@ -4,7 +4,7 @@
             <b-row class="no-gutters" :key="chunk[0].title">
                 <template v-for="book in chunk">
                     <b-col class="px-1 my-1" xs="12" sm="6" :key="book.title">
-                        <article class="book-item p-2">
+                        <article class="book-item p-3">
                             <book :book="book"></book>
                         </article>
                     </b-col>
