@@ -8,6 +8,7 @@
             <a href="https://github.com/t-kuni"><i class="fab fa-github"></i></a>
         </p>
         <p>PHP, Laravel, Vue</p>
+        <p>趣味： <router-link :to="{name: 'books'}">読書</router-link></p>
     </div>
   </div>
 </template>
