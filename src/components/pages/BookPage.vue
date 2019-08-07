@@ -1,5 +1,12 @@
 <template>
     <b-container>
+        <b-input-group size="lg" class="mt-3">
+            <b-form-input v-model="$store.state[STATE.BOOK_SEARCH_TEXT]"></b-form-input>
+            <b-input-group-append>
+                <b-button @click="onClickClear">Clear</b-button>
+            </b-input-group-append>
+        </b-input-group>
+
         <template v-for="chunk in chunkedBooks">
             <b-row class="no-gutters" :key="chunk[0].title">
                 <template v-for="book in chunk">
@@ -15,9 +22,11 @@
 </template>
 
 <script>
-    import books from 'json-loader!yaml-loader!../../assets/books.yml'
     import Book from "../molecules/Book"
     import _ from "lodash"
+    import {STATE} from '../../state';
+    import {MUTATION} from '../../mutations';
+    import {GETTERS} from "../../getters";
 
   export default {
     components: {Book},
@@ -26,15 +35,21 @@
     props     : {},
     data      : function () {
       return {
-          books,
+          STATE,
       }
     },
     computed  : {
+        books() {
+            return this.$store.getters[GETTERS.FILTERED_BOOKS];
+        },
         chunkedBooks() {
             return _.chunk(this.books, 2)
         }
     },
     methods   : {
+        onClickClear() {
+            this.$store.commit(MUTATION.CLEAR_BOOK_SEARCH_TEXT);
+        }
     }
   }
 </script>
