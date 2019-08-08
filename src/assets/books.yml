@@ -1,13 +1,11 @@
 - title: 実践ドメイン駆動設計
   image: <a href="https://www.amazon.co.jp/gp/product/479813161X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=5b3ad060d7a80067dde5038c88396fc5&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=479813161X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=479813161X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/33cbR41
-  progress: 10
-  start: 2018/1/1
-  spent: 10
+  progress: 20
+  start: 2019/8/8
   tags:
-    - タグ1
-    - タグ2
-    - タグ3
+    - 技術
+    - アーキテクチャ
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
@@ -17,13 +15,12 @@
 - title: Ansible実践ガイド
   image: <a href="https://www.amazon.co.jp/gp/product/4295003271/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=54b301742a0cae25de806c197e42744d&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4295003271&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4295003271" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/2YJc8Yr
-  progress: 20
-  start: 2018/1/1
-  spent: 10
+  progress: 0
+  start:
   tags:
-    - タグ2
-    - タグ3
-    - タグ4
+    - 技術
+    - Ansible
+    - インフラ
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
@@ -33,58 +30,219 @@
 - title: 知ってはいけない　金持ち 悪の法則
   image: <a href="https://www.amazon.co.jp/gp/product/4908117551/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=64860a6a38b41da8e9caf938e9085746&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4908117551&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4908117551" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/2YLn8Vw
-  progress: 30
-  start: 2018/1/1
-  spent: 10
+  progress: 100
+  start: 2019/7/1
   tags:
-    - タグ5
-    - タグ6
-    - タグ7
+    - 雑学
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感
 
 - title: チームの生産性を最大化するエマジェネティックス
   image: <a href="https://www.amazon.co.jp/gp/product/486667038X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=1e43fa79dcfabc38be84a5425b50d3dd&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=486667038X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=486667038X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/33gx10E
-  progress: 40
-  start: 2018/1/1
-  spent: 10
+  progress: 0
+  start:
   tags:
-    - タグ1
-    - タグ3
-    - タグ5
+    - 雑学
   thought: |
-    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
-    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
-    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
 
 - title: 入門 監視 ―モダンなモニタリングのためのデザインパターン
   image: <a href="https://www.amazon.co.jp/gp/product/4873118646/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=53ca3938012f903b4b2e9498fb730d17&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873118646&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4873118646" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/2YNiXbJ
-  progress: 50
-  start: 2018/1/1
-  spent: 10
+  progress: 0
+  start:
   tags:
-    - タグ2
-    - タグ4
-    - タグ6
+    - 技術
+    - モニタリング
+    - インフラ
+  thought: |
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
+- title: UNIXという考え方―その設計思想と哲学
+  image: <a href="https://www.amazon.co.jp/gp/product/4274064069/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=b94e53c40a13dd952d83f8a816c154d6&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4274064069&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4274064069" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2MHj8mj
+  progress: 30
+  start: 2019/6/1
+  tags:
+    - 技術
+    - Unix
+    - 設計
+  thought: |
+    所感所感所感所感所感所感所感所感所感所
+
+- title: オブジェクト指向設計実践ガイド
+  image: <a href="https://www.amazon.co.jp/gp/product/477418361X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=ac427a5da489378eb7316a0159a74c37&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=477418361X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=477418361X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2YR24wH
+  progress: 90
+  start: 2019/6/1
+  tags:
+    - 技術
+    - アーキテクチャ
+    - オブジェクト指向
+    - 設計
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
 
-- title: UNIXという考え方―その設計思想と哲学
-  image: <a href="https://www.amazon.co.jp/gp/product/4274064069/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=b94e53c40a13dd952d83f8a816c154d6&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4274064069&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4274064069" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-  link: https://amzn.to/2MHj8mj
-  progress: 100
-  start: 2018/1/1
-  spent: 10
+- title: 完全教祖マニュアル
+  image: <a href="https://www.amazon.co.jp/gp/product/448006513X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=4f78b3d31d7aa786fbffbef1843ba0fe&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=448006513X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=448006513X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2YQ0TNX
+  progress: 0
+  start:
   tags:
-    - タグ1
+    - 雑学
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
+- title: ネコと学ぶディベートの本
+  image: <a href="https://www.amazon.co.jp/gp/product/490711740X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=aade230cdcb7a5c1d7f261dd8c258ff6&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=490711740X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=490711740X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2YzLara
+  progress: 0
+  start:
+  tags:
+    - 雑学
+  thought: |
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
+
+- title: 初めての自動テスト ―Webシステムのための自動テスト基礎
+  image: <a href="https://www.amazon.co.jp/gp/product/4873118166/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=98ebb66a5cf493fc0ebd72f31a6b1deb&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873118166&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4873118166" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2yNoBzP
+  progress: 40
+  start: 2019/5/1
+  tags:
+    - 技術
+    - テスト
+  thought: |
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
+- title: 矛盾社会序説　その「自由」が世界を縛る
+  image: <a href="https://www.amazon.co.jp/%E7%9F%9B%E7%9B%BE%E7%A4%BE%E4%BC%9A%E5%BA%8F%E8%AA%AC-%E3%81%9D%E3%81%AE%E3%80%8C%E8%87%AA%E7%94%B1%E3%80%8D%E3%81%8C%E4%B8%96%E7%95%8C%E3%82%92%E7%B8%9B%E3%82%8B-%E5%BE%A1%E7%94%B0%E5%AF%BA%E5%9C%AD/dp/4781617263/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=PLQFKQ9LQD1W&keywords=%E7%9F%9B%E7%9B%BE%E7%A4%BE%E4%BC%9A%E5%BA%8F%E8%AA%AC&qid=1565276731&s=books&sprefix=muju,stripbooks,261&sr=1-1&linkCode=li2&tag=testparam083-22&linkId=d16404b1208007b6d41292dcf71c3e0f&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4781617263&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4781617263" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2MOTRXI
+  progress: 70
+  start: 2019/5/1
+  tags:
+    - 雑学
+  thought: |
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
+- title: SQL実践入門──高速でわかりやすいクエリの書き方
+  image: <a href="https://www.amazon.co.jp/gp/product/4774173010/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=56d0891f68ef8320425508d4aed73826&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774173010&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4774173010" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2ZGqev2
+  progress: 80
+  start: 2019/4/1
+  tags:
+    - 技術
+    - RDB
+  thought: |
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
+- title: 図解知らないとヤバイお金の話
+  image: <a href="https://www.amazon.co.jp/gp/product/4883928314/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=744fe059a1972f33c9aae30064d0a699&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4883928314&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4883928314" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2GVKrG5
+  progress: 50
+  start: 2019/3/1
+  tags:
+    - 雑学
+  thought: |
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+    所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
+- title: はじめてのPHPプロフェッショナル開発
+  image: <a href="https://www.amazon.co.jp/gp/product/479804749X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=0f95c23aa3e936c1940131db82fb3919&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=479804749X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=479804749X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2ZRDY6x
+  progress: 100
+  start: 2019/3/1
+  tags:
+    - 技術
+    - PHP
+  thought: |
+    所感所感所感所感所
+
+- title: OSSライセンスの教科書
+  image: <a href="https://www.amazon.co.jp/gp/product/4297100355/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=ee24269a7816d5b96ecb63daa9ea11d6&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4297100355&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4297100355" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2ZDYxD8
+  progress: 0
+  start:
+  tags:
+    - 技術
+    - ライセンス
+  thought: |
+    所感所感所感所感所
+
+- title: 失敗から学ぶRDBの正しい歩き方
+  image: <a href="https://www.amazon.co.jp/gp/product/4297104083/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=737d02b255342060f2725d673a33be97&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4297104083&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4297104083" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2yNB8DC
+  progress: 100
+  start: 2019/3/1
+  tags:
+    - 技術
+    - RDB
+  thought: |
+    所感所感所感所感所
+
+- title: 「やりたいこと」からパッと引ける Google アナリティクス 分析・改善のすべてがわかる本
+  image: <a href="https://www.amazon.co.jp/gp/product/4800711754/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=db914b21d506951c8cd6b4412922f014&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4800711754&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4800711754" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2MSfTsB
+  progress: 0
+  start:
+  tags:
+    - 技術
+    - GoogleAnalytics
+  thought: |
+    所感所感所感所感所
+
+- title: JavaScript コードレシピ集
+  image: <a href="https://www.amazon.co.jp/gp/product/4297103680/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=5215d99f43c6817330a7b6e8e8c4baf5&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4297103680&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4297103680" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2YVgJuM
+  progress: 30
+  start: 2019/2/1
+  tags:
+    - 技術
+    - JavaScript
+    - フロントエンド
+  thought: |
+    所感所感所感所感所
+
+- title: プログラミングコンテストチャレンジブック
+  image: <a href="https://www.amazon.co.jp/gp/product/4839941068/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=f2c7506ec8c95a350fdb48eb4b33fe9e&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4839941068&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4839941068" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2ZK2bLG
+  progress: 0
+  start:
+  tags:
+    - 技術
+    - 競技プログラミング
+  thought: |
+    所感所感所感所感所
+
+- title: データ分析基盤構築入門[Fluentd、Elasticsearch、Kibanaによるログ収集と可視化]
+  image: <a href="https://www.amazon.co.jp/gp/product/477419218X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=bc8ed67696d6c118e0bd9a72b86842d5&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=477419218X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=477419218X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  link: https://amzn.to/2ZGuPNO
+  progress: 60
+  start: 2019/1/1
+  tags:
+    - 技術
+    - 分析基盤
+    - Elastic Search
+  thought: |
+    所感所感所感所感所

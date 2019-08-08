@@ -10,6 +10,17 @@ export default {
         const books = state[STATE.BOOKS];
         const search = getters[GETTERS.PARSED_SEARCH_TEXT];
 
+        const sortedBooks = books.sort(function(a, b) {
+            const diff = b.progress - a.progress;
+            if (diff !== 0) {
+                return diff;
+            }
+
+            const dateA = Date.parse(a.start);
+            const dateB = Date.parse(b.start);
+            return dateB - dateA;
+        });
+
         if (search === null) {
             return books;
         }

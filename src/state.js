@@ -6,7 +6,7 @@ export const STATE = {
 };
 
 export const baseState = {
-    [STATE.BOOK_SEARCH_TEXT]: '',
+    [STATE.BOOK_SEARCH_TEXT]: '#技術',
     [STATE.BOOKS]: books,
 };
 

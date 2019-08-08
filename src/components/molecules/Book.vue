@@ -16,13 +16,14 @@
         <div class="text-center mt-3" v-html="book.image"></div>
 
         <!-- 進捗 -->
-        <div class="d-flex justify-content-center mt-3">
-            <progress-bar :value="book.progress"></progress-bar>
+        <div class="progress-area d-flex justify-content-center align-items-center mt-3">
+            <span>進捗</span>
+            <progress-bar class="ml-2" :value="book.progress"></progress-bar>
         </div>
 
-        <!-- 読書期間 -->
+        <!-- 読書開始 -->
         <div class="d-flex justify-content-center mt-3">
-            <div>読書期間： {{localizeDate(book.start)}}～ {{book.spent}}時間</div>
+            <div>読書開始： {{startAt}}</div>
         </div>
         <div class="thoughs-mask mt-3" :style="{maxHeight: openingMore ? 'none' : null}">
             <p ref="thoughsArea" v-html="lf2br(book.thought)"></p>
@@ -54,6 +55,13 @@
       }
     },
     computed  : {
+        startAt() {
+            if (this.book.start === null) {
+                return '未読';
+            }
+
+            return this.localizeYearMonth(this.book.start) + ' ～';
+        }
     },
     methods   : {
         localizeDate(dateStr) {
@@ -62,6 +70,12 @@
             const m = date.getMonth() + 1;
             const d = date.getDate();
             return y + '年' + m + '月' + d + '日';
+        },
+        localizeYearMonth(dateStr) {
+            const date = new Date(dateStr);
+            const y = date.getFullYear();
+            const m = date.getMonth() + 1;
+            return y + '年 ' + m + '月';
         },
         lf2br(str) {
             return str.replace(/\r?\n/g, '<br>');

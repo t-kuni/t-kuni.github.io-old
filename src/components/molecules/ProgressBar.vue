@@ -1,6 +1,7 @@
 <template>
     <div class="board">
         <div class="bar" :style="{width: value + '%'}" :class="{full: value == 100}">
+            <span class="percent-text pr-2">{{value}}%</span>
         </div>
     </div>
 </template>
@@ -42,9 +43,18 @@
         height: 100%;
         border-radius: $height / 2 0 0 $height / 2;
         background-color: #00B370;
+        text-align: right;
 
         &.full {
             border-radius: $height / 2;
         }
+    }
+
+    .percent-text {
+        font-size: $font-size-smallest;
+        color: white;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 20px;
     }
 </style>
