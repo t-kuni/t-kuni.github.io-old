@@ -28,5 +28,6 @@ npm run lint
 ### Publish to Github.io
 
 ```
+npm run build
 git subtree push --prefix docs/ origin master
 ```

@@ -4,58 +4,85 @@
   progress: 10
   start: 2018/1/1
   spent: 10
+  tags:
+    - タグ1
+    - タグ2
+    - タグ3
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
 - title: Ansible実践ガイド
   image: <a href="https://www.amazon.co.jp/gp/product/4295003271/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=54b301742a0cae25de806c197e42744d&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4295003271&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4295003271" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/2YJc8Yr
   progress: 20
   start: 2018/1/1
   spent: 10
+  tags:
+    - タグ2
+    - タグ3
+    - タグ4
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
 - title: 知ってはいけない　金持ち 悪の法則
   image: <a href="https://www.amazon.co.jp/gp/product/4908117551/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=64860a6a38b41da8e9caf938e9085746&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4908117551&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4908117551" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/2YLn8Vw
   progress: 30
   start: 2018/1/1
   spent: 10
+  tags:
+    - タグ5
+    - タグ6
+    - タグ7
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感
+
 - title: チームの生産性を最大化するエマジェネティックス
   image: <a href="https://www.amazon.co.jp/gp/product/486667038X/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=1e43fa79dcfabc38be84a5425b50d3dd&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=486667038X&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=486667038X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/33gx10E
   progress: 40
   start: 2018/1/1
   spent: 10
+  tags:
+    - タグ1
+    - タグ3
+    - タグ5
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
 - title: 入門 監視 ―モダンなモニタリングのためのデザインパターン
   image: <a href="https://www.amazon.co.jp/gp/product/4873118646/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=53ca3938012f903b4b2e9498fb730d17&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873118646&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4873118646" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/2YNiXbJ
   progress: 50
   start: 2018/1/1
   spent: 10
+  tags:
+    - タグ2
+    - タグ4
+    - タグ6
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
+
 - title: UNIXという考え方―その設計思想と哲学
   image: <a href="https://www.amazon.co.jp/gp/product/4274064069/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=b94e53c40a13dd952d83f8a816c154d6&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4274064069&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4274064069" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/2MHj8mj
   progress: 100
   start: 2018/1/1
   spent: 10
+  tags:
+    - タグ1
   thought: |
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感
     所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感所感

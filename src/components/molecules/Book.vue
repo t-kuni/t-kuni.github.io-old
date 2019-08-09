@@ -6,10 +6,21 @@
                 <span class="pl-2">{{book.title}}</span>
             </a>
         </div>
+
+        <!-- タグ -->
+        <div class="d-flex">
+            <b-badge class="tag m-1" v-for="tag in book.tags" @click="onClickTag(tag)">{{tag}}</b-badge>
+        </div>
+
+        <!-- 画像 -->
         <div class="text-center mt-3" v-html="book.image"></div>
+
+        <!-- 進捗 -->
         <div class="d-flex justify-content-center mt-3">
             <progress-bar :value="book.progress"></progress-bar>
         </div>
+
+        <!-- 読書期間 -->
         <div class="d-flex justify-content-center mt-3">
             <div>読書期間： {{localizeDate(book.start)}}～ {{book.spent}}時間</div>
         </div>
@@ -24,6 +35,8 @@
 
 <script>
   import ProgressBar from "./ProgressBar";
+  import {MUTATION} from "../../mutations";
+
   export default {
     components: {ProgressBar},
     mounted() {
@@ -55,12 +68,20 @@
         },
         onClickMoreRead() {
             this.openingMore = true;
+        },
+        onClickTag(tag) {
+            this.$store.commit(MUTATION.SET_TAG_TO_BOOK_SEARCH_TEXT, {
+                tag,
+            })
         }
     }
   }
 </script>
 
 <style scoped lang="scss">
+    .tag {
+        cursor: pointer;
+    }
 
     .thoughs-mask {
         overflow: hidden;
