@@ -7,7 +7,10 @@
             <a href="https://twitter.com/t_kuni_"><i class="fab fa-twitter"></i></a>
             <a href="https://github.com/t-kuni"><i class="fab fa-github"></i></a>
         </p>
+        <!--
         <p>スキル： PHP, Laravel, Vue, <router-link :to="{name: 'skills'}">More...</router-link></p>
+        -->
+        <p>スキル： PHP, Laravel, Vue</p>
         <p>
             <span>趣味： </span>
             <router-link :to="{name: 'books'}">読書</router-link>

@@ -153,6 +153,7 @@
   tags:
     - 技術
     - RDB
+    - DB
   thought: |
     絶賛積読中・・・
 
@@ -198,6 +199,7 @@
   tags:
     - 技術
     - RDB
+    - DB
   thought: |
     RDBのアンチパターン（べからず集）を解説した本。
 
@@ -332,6 +334,7 @@
   tags:
     - 技術
     - DB
+    - RDB
     - MySQL
     - MariaDB
   thought: |
@@ -378,6 +381,7 @@
   tags:
     - 技術
     - DB
+    - RDB
     - MySQL
     - ミドルウェア
   thought: |
