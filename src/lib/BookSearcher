@@ -1,0 +1,21 @@
+import Parser from 'search-query-parser';
+
+export class BookSearcher {
+    search(books, query) {
+        const options = {keywords: ['tag']};
+        const parsed  = Parser.parse(query, options);
+
+        return books.filter((book) => {
+            if (parsed.tag.length > 0) {
+                const matchedTags = book.tags.filter((tag) => {
+                    return parsed.tag.indexOf(tag) >= 0;
+                });
+                if (matchedTags.length > 0) {
+                    return true;
+                }
+            }
+
+            return false;
+        });
+    }
+}
