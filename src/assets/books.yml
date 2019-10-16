@@ -148,7 +148,7 @@
 - title: SQL実践入門──高速でわかりやすいクエリの書き方
   image: <a href="https://www.amazon.co.jp/gp/product/4774173010/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=56d0891f68ef8320425508d4aed73826&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774173010&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4774173010" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   link: https://amzn.to/2ZGqev2
-  progress: 80
+  progress: 40
   start: 2019/4/1
   tags:
     - 技術
@@ -453,7 +453,9 @@
     - Python
     - 機械学習
   thought: |
-    絶賛積読中・・・
+    実務寄りの機械学習の入門書。数学的な解説を避けつつアルゴリズムの特性を教えてくれる。
+    アルゴリズムの詳細には立ち入らずに全体を流して読んだ。
+    データをでっちあげて
 
 - title: Docker/Kubernetes 実践コンテナ開発入門
   image: <a href="https://www.amazon.co.jp/gp/product/4297100339/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li2&tag=testparam083-22&linkId=9936cae87e2324d2d3ed9b586479a821&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4297100339&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=testparam083-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=testparam083-22&language=ja_JP&l=li2&o=9&a=4297100339" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

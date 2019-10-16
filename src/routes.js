@@ -15,8 +15,8 @@ export default [
         component: BookPage
     },
     {
-        path     : '/products',
-        name     : 'products',
+        path     : '/products/:permalink',
+        name     : 'product',
         component: ProductPage
     },
     {

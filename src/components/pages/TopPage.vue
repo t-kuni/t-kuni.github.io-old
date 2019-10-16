@@ -16,6 +16,7 @@
             <router-link :to="{name: 'books'}">読書</router-link>
             <span>、</span>
             個人製作
+            <router-link :to="{ name: 'product', params: { permalink: 'test1' }}">読書</router-link>
         </p>
     </div>
   </div>

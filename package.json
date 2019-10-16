@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "github-markdown-css": "^3.0.1",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
@@ -31,6 +32,7 @@
     "search-query-parser": "^1.5.3",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10",
+    "vuex-router-sync": "^5.0.0",
     "yaml-loader": "^0.5.0"
   },
   "eslintConfig": {
