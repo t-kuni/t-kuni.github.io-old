@@ -1,5 +1,7 @@
 <template>
   <div >
+
+    {{text}}
     <!--
       使用技術
       作った経緯
@@ -37,6 +39,8 @@
 </template>
 
 <script>
+  import text from '../../assets/products/test.md';
+
   export default {
     components: {},
     mounted() {
@@ -44,6 +48,7 @@
     props     : {},
     data      : function () {
       return {
+        text,
       }
     },
     computed  : {
