@@ -1,8 +1,21 @@
 <template>
   <div >
     <b-container>
-      <article class="markdown-body" v-html="product.content"></article>
+      <div class="mt-5 mb-5">
+        <article class="markdown-body" v-html="product.content"></article>
+      </div>
     </b-container>
+
+    <div class="buttons-area">
+      <b-container>
+        <div class="prev-button float-left" @click="onClickPrev">
+          前
+        </div>
+        <div class="next-button float-right" @click="onClickNext">
+          次
+        </div>
+      </b-container>
+    </div>
   </div>
 </template>
 
@@ -27,9 +40,15 @@
         } else {
           return null;
         }
-      }
+      },
     },
     methods   : {
+      onClickPrev() {
+
+      },
+      onClickNext() {
+
+      },
     }
   }
 </script>
@@ -38,4 +57,25 @@
     @import '../../scss/variables';
     @import '../../../node_modules/github-markdown-css/github-markdown.css';
 
+    .buttons-area {
+      pointer-events: none;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+
+      .prev-button, .next-button {
+        $size: 80px;
+
+        width: $size;
+        height: $size;
+        line-height: $size;
+        border-radius: 50%;
+        background-color: #FF3636;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem;
+        cursor: pointer;
+      }
+    }
 </style>
