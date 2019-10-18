@@ -8,10 +8,10 @@
 
     <div class="buttons-area">
       <b-container>
-        <div class="prev-button float-left" @click="onClickPrev">
+        <div class="prev-button float-left" v-if="hasPrev" @click="onClickPrev">
           前
         </div>
-        <div class="next-button float-right" @click="onClickNext">
+        <div class="next-button float-right" v-if="hasNext" @click="onClickNext">
           次
         </div>
       </b-container>
@@ -21,6 +21,7 @@
 
 <script>
   import products from '../../assets/products/products';
+  import {GETTERS} from "../../getters";
 
   export default {
     components: {},
@@ -32,6 +33,12 @@
       }
     },
     computed  : {
+      hasPrev() {
+        return this.$store.getters[GETTERS.PREV_PRODUCT] !== null;
+      },
+      hasNext() {
+        return this.$store.getters[GETTERS.NEXT_PRODUCT] !== null;
+      },
       product() {
         const curPerm = this.$store.state.route.params.permalink;
         const filtered = products.filter((p) => p.permalink === curPerm);
@@ -44,10 +51,12 @@
     },
     methods   : {
       onClickPrev() {
-
+        const permalink = this.$store.getters[GETTERS.PREV_PRODUCT];
+        this.$router.push({ name: 'product', params: { permalink }});
       },
       onClickNext() {
-
+        const permalink = this.$store.getters[GETTERS.NEXT_PRODUCT];
+        this.$router.push({ name: 'product', params: { permalink }});
       },
     }
   }
@@ -76,6 +85,7 @@
         text-align: center;
         margin: 1rem;
         cursor: pointer;
+        pointer-events: auto;
       }
     }
 </style>

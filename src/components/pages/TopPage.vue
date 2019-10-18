@@ -15,15 +15,16 @@
             <span>趣味： </span>
             <router-link :to="{name: 'books'}">読書</router-link>
             <span>、</span>
-            個人製作
-            <router-link :to="{ name: 'product', params: { permalink: 'test1' }}">読書</router-link>
+            <router-link :to="{ name: 'product', params: { permalink: firstProductPermalink }}">個人製作</router-link>
         </p>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
+    import {GETTERS} from "../../getters";
+
+    export default {
     components: {},
     mounted() {
         window.onresize = () => {
@@ -39,6 +40,9 @@
       }
     },
     computed  : {
+        firstProductPermalink() {
+            return this.$store.getters[GETTERS.FIRST_PRODUCT];
+        }
     },
     methods   : {
     }

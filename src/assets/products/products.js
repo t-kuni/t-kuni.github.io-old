@@ -8,11 +8,6 @@ export default [
         content: test
     },
     {
-        permalink: 'test2',
-        title: 'bbb',
-        content: test
-    },
-    {
         permalink: 'github-issue-2-anki-card',
         title: 'Github-Issue-2-Anki-Card',
         content: contentOfGithubIssue2AnkiCard
