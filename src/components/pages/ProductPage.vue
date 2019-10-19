@@ -1,7 +1,11 @@
 <template>
-  <div >
+  <div>
+    <ex-header :breadcrumbs="breadcrumbs">
+      <i class="fas fa-drafting-compass"></i> 製作物リスト
+    </ex-header>
+
     <b-container>
-      <div class="mt-5 mb-5">
+      <div class="content-area mt-3 mb-5">
         <article class="markdown-body" v-html="product.content"></article>
       </div>
     </b-container>
@@ -22,9 +26,10 @@
 <script>
   import products from '../../assets/products/products';
   import {GETTERS} from "../../getters";
+  import ExHeader from "../organisms/ExHeader";
 
   export default {
-    components: {},
+    components: {ExHeader},
     mounted() {
     },
     props     : {},
@@ -33,6 +38,22 @@
       }
     },
     computed  : {
+      breadcrumbs() {
+        return [
+          {
+            label: 'トップ',
+            route: {
+              name: 'top'
+            },
+          },
+          {
+            label: '製作物リスト'
+          },
+          {
+            label: this.product.title
+          }
+        ]
+      },
       hasPrev() {
         return this.$store.getters[GETTERS.PREV_PRODUCT] !== null;
       },
@@ -65,6 +86,13 @@
 <style scoped lang="scss">
     @import '../../scss/variables';
     @import '../../../node_modules/github-markdown-css/github-markdown.css';
+
+    .content-area {
+      background-color: $main-color;
+      border: 1px solid rgb(234, 236, 239);
+      padding: 1rem;
+      border-radius: 3px;
+    }
 
     .buttons-area {
       pointer-events: none;

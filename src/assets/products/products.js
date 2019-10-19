@@ -9,7 +9,7 @@ export default [
     },
     {
         permalink: 'portfolio',
-        title: 'portfolio',
+        title: 'ポートフォリオ',
         content: contentOfThisPortfolio
     }
 ]

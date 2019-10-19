@@ -50,9 +50,11 @@
 </script>
 
 <style scoped lang="scss">
+    @import '../../scss/variables';
 
     .content-area {
-        border: 1px dashed #2c3e50;
+        border: 1px dashed $base-border-color;
+        background-color: $main-color;
         text-align: center;
         padding: 2rem;
     }
