@@ -34,3 +34,22 @@ https://github.com/t-kuni/t-kuni.github.io/tree/src
 　 ├ router.js    # Vue-Routerの定義
 　 └ routes.js
 ```
+
+## 主な使用ライブラリ
+
+* github-markdown-css
+    * GithubライクなデザインにしてくれるCSS
+* @fortawesome/fontawesome-free
+    * お手軽なアイコンセット
+* bootstrap
+    * CSSフレームワーク
+* bootstrap-vue
+    * bootstrapをVueコンポーネントとして提供してくれる
+* lodash
+    * 配列操作のユーティリティ
+* markdown-loader
+    * mdファイルの読み込み
+* search-query-parser
+    * 「読んだ本リスト」ページの検索文字列のパースに利用
+* yaml-loader
+    * yamlファイルの読み込み

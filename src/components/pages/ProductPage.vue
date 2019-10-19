@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="body">
     <ex-header :breadcrumbs="breadcrumbs">
       <i class="fas fa-drafting-compass"></i> 製作物リスト
     </ex-header>
 
     <b-container>
-      <div class="content-area mt-3 mb-5">
+      <div class="content-area mt-3">
         <article class="markdown-body" v-html="product.content"></article>
       </div>
     </b-container>
@@ -87,6 +87,10 @@
     @import '../../scss/variables';
     @import '../../../node_modules/github-markdown-css/github-markdown.css';
 
+    .body {
+      padding-bottom: 100px;
+    }
+
     .content-area {
       background-color: $main-color;
       border: 1px solid rgb(234, 236, 239);
@@ -114,6 +118,7 @@
         margin: 1rem;
         cursor: pointer;
         pointer-events: auto;
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,0.4);
       }
     }
 </style>
