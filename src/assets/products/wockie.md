@@ -1,9 +1,10 @@
 # Wockie
 
-![wockie-main.gif](https://camo.githubusercontent.com/9bd2e798db7ca6196105fd27d5eacc4192766674/68747470733a2f2f7261772e6769746875622e636f6d2f77696b692f7469676d69756d2f776f636b69652f323031392d30312d30365f31316831395f34332e676966)
-
 様々なOSSのドキュメントを行ったり来たりするのに疲れて作成したElectron製のGUIアプリケーションです。
 Web上のドキュメントをローカルにインポートしてキーワードでまとめて全文検索できます。
+
+![wockie-main.gif](https://camo.githubusercontent.com/9bd2e798db7ca6196105fd27d5eacc4192766674/68747470733a2f2f7261772e6769746875622e636f6d2f77696b692f7469676d69756d2f776f636b69652f323031392d30312d30365f31316831395f34332e676966)  
+（Wockieでドキュメントをインポートして検索している図）  
 
 全文検索にはelasticlunr.jsを使用しています。  
 elasticlunr.jsについてはQiitaに[記事](https://qiita.com/t-kuni/items/410aac718e531c6aee17)を書いています。
