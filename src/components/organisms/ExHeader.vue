@@ -2,7 +2,11 @@
     <div>
         <div class="sub-header">
             <b-container>
-                <p><i class="far fa-id-card"></i> t-kuni's portfolio</p>
+                <p>
+                    <router-link :to="{name: 'top'}">
+                        <i class="far fa-id-card"></i> t-kuni's portfolio
+                    </router-link>
+                </p>
             </b-container>
         </div>
         <b-container>
@@ -60,6 +64,11 @@
             padding: 3px 0;
             font-weight: lighter;
             color: $border-color;
+
+            a {
+                color: $text-color!important;
+                text-decoration: none!important;
+            }
         }
     }
 
