@@ -63,10 +63,9 @@
             margin: 0;
             padding: 3px 0;
             font-weight: lighter;
-            color: $border-color;
 
             a {
-                color: $text-color!important;
+                color: $border-color!important;
                 text-decoration: none!important;
             }
         }
