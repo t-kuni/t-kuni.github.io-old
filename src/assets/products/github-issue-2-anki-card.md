@@ -1,6 +1,6 @@
 # Github-Issue-2-Anki-Card
 
-英語のリーディング力向上のために作成したツールです。  
+英語のリーディング力向上のために作成したPHPのバッチスクリプトです。  
 毎朝、[Anki](http://rs.luminousspice.com/how-to-anki/#i-1)に新しい問題を配信します。
 （※AnkiはスマホやWebで暗記カードを作成して学習できるアプリ＆Webサイト）  
 
@@ -19,6 +19,7 @@ https://github.com/t-kuni/github-issue-2-anki-card
 
 PHPのプログラムが動くコンテナ(docker)を作成し  
 AWS Fargateのスケジューリング機能を使って毎朝実行しています。  
+なお、バッチスクリプトなのでGUIはありません。  
 
 ![architecture.png](https://raw.githubusercontent.com/t-kuni/github-issue-2-anki-card/master/docs/architecture.png)
 
