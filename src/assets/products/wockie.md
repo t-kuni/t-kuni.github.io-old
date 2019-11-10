@@ -1,5 +1,9 @@
 # Wockie
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/t-kuni/wockie/master/design/icon.png" alt="icon" title="icon">
+</div>
+
 様々なOSSのドキュメントを行ったり来たりするのに疲れて作成したElectron製のGUIアプリケーションです。  
 Web上のドキュメントをローカルにインポートしてキーワードでまとめて全文検索できます。  
 
