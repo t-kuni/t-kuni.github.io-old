@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
     outputDir: 'docs',
     pages: {
@@ -31,6 +33,18 @@ module.exports = {
                 }
             ]
         },
+        plugins: [
+            new webpack.DefinePlugin({
+                __BUILD_DATE__: (() => {
+                    const date = new Date();
+                    date.setTime(date.getTime() + 1000*60*60*9); // convert to JST
+                    const dateStr = date.toISOString()
+                        .replace(/T/, ' ')
+                        .replace(/\..+/, '');
+                    return JSON.stringify(dateStr);
+                })(),
+            })
+        ]
     },
     chainWebpack: config => {
         config.module

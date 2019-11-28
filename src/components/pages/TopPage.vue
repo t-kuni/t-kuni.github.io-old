@@ -19,6 +19,7 @@
             <router-link :to="{ name: 'product', params: { permalink: firstProductPermalink }}">個人製作</router-link>
         </p>
     </div>
+    <div class="build-info"><small>build: {{buildDate}}</small></div>
   </div>
 </template>
 
@@ -38,6 +39,7 @@
       return {
           width: window.innerWidth,
           height: window.innerHeight,
+          buildDate: __BUILD_DATE__,
       }
     },
     computed  : {
@@ -76,5 +78,11 @@
         .link-item:nth-child(n + 2) {
             padding-left: 5px;
         }
+    }
+
+    .build-info {
+        position: fixed;
+        bottom: 0;
+        right: 0;
     }
 </style>
