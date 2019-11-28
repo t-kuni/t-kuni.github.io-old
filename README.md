@@ -33,6 +33,6 @@ npm run lint
 
 ```
 npm run build
-git add -A && git commit
+git add -A && git commit -m "build"
 git subtree push --prefix docs/ origin master
 ```
