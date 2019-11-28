@@ -31,8 +31,10 @@ npm run lint
 
 ### Publish to Github.io
 
+Note: following commands can only run on **git-bash**.
+
 ```
 npm run build
 git add -A && git commit -m "build"
-git subtree push --prefix docs/ origin master
+git push -f origin `git subtree split --prefix docs`:master
 ```
