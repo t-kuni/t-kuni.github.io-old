@@ -47,7 +47,10 @@
             },
           },
           {
-            label: '製作物リスト'
+            label: '製作物リスト',
+            route: {
+              name: 'products'
+            },
           },
           {
             label: this.product.title

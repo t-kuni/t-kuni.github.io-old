@@ -16,7 +16,7 @@
             <span>趣味： </span>
             <router-link :to="{name: 'books'}">読書</router-link>
             <span>、</span>
-            <router-link :to="{ name: 'product', params: { permalink: firstProductPermalink }}">個人製作</router-link>
+            <router-link :to="{ name: 'products' }">個人製作</router-link>
         </p>
     </div>
     <div class="build-info"><small>build: {{buildDate}}</small></div>
