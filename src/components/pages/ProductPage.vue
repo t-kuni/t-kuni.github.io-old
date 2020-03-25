@@ -77,10 +77,12 @@
       onClickPrev() {
         const permalink = this.$store.getters[GETTERS.PREV_PRODUCT];
         this.$router.push({ name: 'product', params: { permalink }});
+        scroll(0, 0);
       },
       onClickNext() {
         const permalink = this.$store.getters[GETTERS.NEXT_PRODUCT];
         this.$router.push({ name: 'product', params: { permalink }});
+        scroll(0, 0);
       },
     }
   }
