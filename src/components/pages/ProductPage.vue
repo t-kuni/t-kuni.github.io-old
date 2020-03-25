@@ -91,6 +91,7 @@
 <style scoped lang="scss">
     @import '../../scss/variables';
     @import '../../../node_modules/github-markdown-css/github-markdown.css';
+    @import "~bootstrap/scss/bootstrap-grid";
 
     .body {
       padding-bottom: 100px;
@@ -110,11 +111,20 @@
       width: 100%;
 
       .prev-button, .next-button {
-        $size: 80px;
 
-        width: $size;
-        height: $size;
-        line-height: $size;
+        @include media-breakpoint-up(xs) {
+          $size: 40px;
+          width: $size;
+          height: $size;
+          line-height: $size;
+        }
+        @include media-breakpoint-up(sm) {
+          $size: 80px;
+          width: $size;
+          height: $size;
+          line-height: $size;
+        }
+
         border-radius: 50%;
         background-color: #FF3636;
         color: white;
