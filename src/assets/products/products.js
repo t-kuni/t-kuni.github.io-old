@@ -1,6 +1,7 @@
 import contentOfGithubIssue2AnkiCard from './github-issue-2-anki-card.md'
 import contentOfThisPortfolio from './portforio.md'
 import contentOfWockie from './wockie.md'
+import contentOfGithubFastTraveler from './github-fast-traveler.md'
 
 export default [
     {
@@ -30,6 +31,15 @@ export default [
         content: contentOfThisPortfolio,
         skills: [
             'JavaScript', 'Flux Architecture', 'Atomic Design', 'Vue', 'Vuex', 'Vue-Router', 'github.io',
+        ]
+    },
+    {
+        permalink: 'github-fast-traveler',
+        title: 'Github Fast Traveler',
+        description: 'Githubにキーボードショートカットを追加するchrome拡張です。',
+        content: contentOfGithubFastTraveler,
+        skills: [
+            'Chrome Extension', 'TypeScript', 'Clean Architecture', 'DDD', 'Vue',
         ]
     }
 ]
