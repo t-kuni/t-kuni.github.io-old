@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-content-center align-items-center" :style="{width: width + 'px', height: height + 'px'}">
+  <div class="root d-flex justify-content-center align-items-center">
     <div class="content-area">
         <img src="@/assets/me.jpg" />
         <p class="name">t-kuni</p>
@@ -19,7 +19,6 @@
             <router-link :to="{ name: 'products' }">個人製作</router-link>
         </p>
     </div>
-    <div class="build-info"><small>build: {{buildDate}}</small></div>
   </div>
 </template>
 
@@ -29,18 +28,13 @@
     export default {
     components: {},
     mounted() {
-        window.onresize = () => {
-            this.width = window.innerWidth;
-            this.height = window.innerHeight;
-        };
+        console.log("BUILD DATE: " + __BUILD_DATE__)
     },
     props     : {},
     data      : function () {
-      return {
-          width: window.innerWidth,
-          height: window.innerHeight,
-          buildDate: __BUILD_DATE__,
-      }
+        return {
+
+        }
     },
     computed  : {
         firstProductPermalink() {
@@ -54,6 +48,11 @@
 
 <style scoped lang="scss">
     @import '../../scss/variables';
+
+    .root {
+        width: 100vw;
+        height: 100vh;
+    }
 
     .content-area {
         border: 1px dashed $base-border-color;
