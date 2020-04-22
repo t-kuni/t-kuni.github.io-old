@@ -4,9 +4,10 @@
         <img src="@/assets/me.jpg" />
         <p class="name">t-kuni</p>
         <div class="link-area">
-            <span class="link-item"><a href="https://twitter.com/t_kuni_"><i class="fab fa-twitter"></i></a></span>
-            <span class="link-item"><a href="https://github.com/t-kuni"><i class="fab fa-github"></i></a></span>
-            <span class="link-item"><a href="https://qiita.com/t-kuni">Qiita</a></span>
+            <span class="link-item"><a href="https://twitter.com/t_kuni_" target="_blank"><i class="fab fa-twitter"></i></a></span>
+            <span class="link-item"><a href="https://github.com/t-kuni" target="_blank"><i class="fab fa-github"></i></a></span>
+            <span class="link-item"><a href="https://qiita.com/t-kuni" target="_blank">Qiita</a></span>
+            <span class="link-item"><a href="http://t-kuni.sub.jp" target="_blank">Blog</a></span>
         </div>
         <!--
         <p>スキル： PHP, Laravel, Vue, <router-link :to="{name: 'skills'}">More...</router-link></p>
