@@ -26,21 +26,20 @@
                     };
                 };
 
-                const waveHeight = 0.1 + this.animParam(0.0, 0.1, 400);
-                const waveWidth  = 0.5 + this.animParam(0.1, 0.2, 800);
-                const angle      = -15 + this.animParam(-15, 0, 500);
-                const shiftX     = this.animParam(0.0, 1, 2000);
-                const shiftY     = 0 + this.animParam(-0.1, 0.1, 300);
+                const waveHeight = 0.1 + this.animParam(0.0, 0.1, 1200);
+                const waveWidth  = 0.5 + this.animParam(0.1, 0.2, 2400);
+                const angle      = -15 + this.animParam(-15, 0, 1500);
+                const shiftX     = this.animParam(0.0, 1, 5000);
+                const shiftY     = 0 + this.animParam(-0.1, 0.1, 900);
                 const line1      = lineFactory(waveHeight, waveWidth, angle, shiftX, shiftY);
 
-                const angle2  = 15 + this.animParam(0, 15, 500);
-                const shiftY2 = 0 + this.animParam(-0.1, 0.1, 300);
+                const angle2  = 15 + this.animParam(0, 15, 1500);
+                const shiftY2 = 0 + this.animParam(-0.1, 0.1, 900);
                 const line2   = lineFactory(waveHeight, waveWidth, angle2, shiftX, shiftY2);
 
-                const width      = 10;
-                const resolution = 60 + this.animParam(-60, 0, 500);
-                this.draw2Line(line1, line2, width, resolution, (x1, y1, x2, y2) => {
-                    const gradient = context.createLinearGradient(0, y1, 0, y2)
+                const resolution = 60 + this.animParam(-60, 0, 1500);
+                this.draw2Line(line1, line2, resolution, (x1, y1, x2, y2) => {
+                    const gradient = context.createLinearGradient(0, y1, 0, y2);
                     gradient.addColorStop(0.0, '#4556AD');
                     gradient.addColorStop(0.8, '#132689');
                     return gradient;
@@ -52,7 +51,7 @@
             /**
              * ２本のラインを描画してポリゴンにし、グラデーションを掛ける。
              */
-            draw2Line(line1, line2, width, resolution, gradientMaker) {
+            draw2Line(line1, line2, resolution, gradientMaker) {
                 const context = this.context;
 
                 var x1 = Number.MAX_SAFE_INTEGER;
@@ -197,6 +196,15 @@
                 const diff = max - min;
                 return min + diff * this.tickWave(period);
             },
+            calcFps(timestamp) {
+                if(!this.prevTs) {
+                    this.prevTs = timestamp;
+                    return 0;
+                }
+                const delta = (timestamp - this.prevTs)/1000;
+                this.prevTs = timestamp;
+                return 1/delta;
+            }
         }
     }
 </script>
