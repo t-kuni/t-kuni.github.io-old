@@ -33,18 +33,95 @@
                 const shiftY     = 0 + this.animParam(-0.1, 0.1, 300);
                 const line1      = lineFactory(waveHeight, waveWidth, angle, shiftX, shiftY);
 
-                const angle2      = 15 + this.animParam(0, 15, 500);
-                const shiftY2     = 0 + this.animParam(-0.1, 0.1, 300);
-                const line2      = lineFactory(waveHeight, waveWidth, angle2, shiftX, shiftY2);
+                const angle2  = 15 + this.animParam(0, 15, 500);
+                const shiftY2 = 0 + this.animParam(-0.1, 0.1, 300);
+                const line2   = lineFactory(waveHeight, waveWidth, angle2, shiftX, shiftY2);
 
-                const style      = "#051560";
                 const width      = 10;
-                const resolution = 0 + this.animParam(0, 60, 500);
-                this.drawLine(line1, width, style, resolution);
-                this.drawLine(line2, width, style, resolution);
+                const resolution = 60 + this.animParam(-60, 0, 500);
+                this.draw2Line(line1, line2, width, resolution, (x1, y1, x2, y2) => {
+                    const gradient = context.createLinearGradient(0, y1, 0, y2)
+                    gradient.addColorStop(0.0, '#4556AD');
+                    gradient.addColorStop(0.8, '#132689');
+                    return gradient;
+                });
 
                 this.tick++;
                 window.requestAnimationFrame(ts => this.loop(ts));
+            },
+            /**
+             * ２本のラインを描画してポリゴンにし、グラデーションを掛ける。
+             */
+            draw2Line(line1, line2, width, resolution, gradientMaker) {
+                const context = this.context;
+
+                var x1 = Number.MAX_SAFE_INTEGER;
+                var y1 = Number.MAX_SAFE_INTEGER;
+                var x2 = 0;
+                var y2 = 0;
+
+                context.beginPath();
+                context.lineWidth = 1;
+                for (var rad = 0; rad < Math.PI; rad += Math.PI / resolution) {
+                    const vx       = -Math.cos(rad);
+                    const vy       = line1(vx);
+                    const [px, py] = this.projection(vx, vy);
+
+                    if (rad === 0) {
+                        context.moveTo(px, py);
+                    } else {
+                        context.lineTo(px, py);
+                    }
+
+                    x1 = Math.min(x1, px);
+                    y1 = Math.min(y1, py);
+                    x2 = Math.max(x2, px);
+                    y2 = Math.max(y2, py);
+                }
+
+                // 最後の１点
+                var vx       = -Math.cos(Math.PI);
+                var vy       = line1(vx);
+                var [px, py] = this.projection(vx, vy);
+                context.lineTo(px, py);
+
+                x1 = Math.min(x1, px);
+                y1 = Math.min(y1, py);
+                x2 = Math.max(x2, px);
+                y2 = Math.max(y2, py);
+
+                for (rad = Math.PI; rad > 0; rad -= Math.PI / resolution) {
+                    const vx       = -Math.cos(rad);
+                    const vy       = line2(vx);
+                    const [px, py] = this.projection(vx, vy);
+
+                    context.lineTo(px, py);
+
+                    x1 = Math.min(x1, px);
+                    y1 = Math.min(y1, py);
+                    x2 = Math.max(x2, px);
+                    y2 = Math.max(y2, py);
+                }
+
+                // 最後の１点
+                vx       = -Math.cos(0);
+                vy       = line2(vx);
+                [px, py] = this.projection(vx, vy);
+                context.lineTo(px, py);
+
+                x1 = Math.min(x1, px);
+                y1 = Math.min(y1, py);
+                x2 = Math.max(x2, px);
+                y2 = Math.max(y2, py);
+
+                const gradient = gradientMaker(x1, y1, x2, y2);
+                context.fillStyle = gradient;
+                context.strokeStyle = gradient;
+
+                context.closePath();
+                context.fill();
+
+                context.stroke();
             },
             drawLine(line, width, style, resolution) {
                 const context = this.context;
