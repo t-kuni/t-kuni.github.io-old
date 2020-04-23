@@ -9,7 +9,7 @@
             const context         = this.context = canvas.getContext('2d');
             context.canvas.width  = this.width = canvas.clientWidth;
             context.canvas.height = this.height = canvas.clientHeight;
-            this.tick = 0;
+            this.tick             = 0;
             window.requestAnimationFrame(ts => this.loop(ts));
         },
         methods: {
@@ -18,23 +18,40 @@
 
                 context.clearRect(0, 0, this.width, this.height);
 
-                const waveHeight = 0.1 + this.animParam(0.0, 0.1, 400);
-                const waveWidth = 0.5 + this.animParam(0.1, 0.2, 800);
-                const angle = -15 + this.animParam(-15, 0, 500);
-
-                const shiftX = this.animParam(0.0, 1, 2000);
-                const shiftY = 0 + this.animParam(-0.1, 0.1, 300);
-                const line = x => {
-                    x += shiftX;
-                    const y = this.angle(angle) * x + Math.sin(Math.PI * x * this.waveWidth(waveWidth)) / this.waveHeight(waveHeight)
-                    return y + shiftY;
+                const lineFactory = (waveHeight, waveWidth, angle, shiftX, shiftY) => {
+                    return x => {
+                        x += shiftX;
+                        const y = this.angle(angle) * x + Math.sin(Math.PI * x * this.waveWidth(waveWidth)) / this.waveHeight(waveHeight)
+                        return y + shiftY;
+                    };
                 };
 
+                const waveHeight = 0.1 + this.animParam(0.0, 0.1, 400);
+                const waveWidth  = 0.5 + this.animParam(0.1, 0.2, 800);
+                const angle      = -15 + this.animParam(-15, 0, 500);
+                const shiftX     = this.animParam(0.0, 1, 2000);
+                const shiftY     = 0 + this.animParam(-0.1, 0.1, 300);
+                const line1      = lineFactory(waveHeight, waveWidth, angle, shiftX, shiftY);
+
+                const angle2      = 15 + this.animParam(0, 15, 500);
+                const shiftY2     = 0 + this.animParam(-0.1, 0.1, 300);
+                const line2      = lineFactory(waveHeight, waveWidth, angle2, shiftX, shiftY2);
+
+                const style      = "#051560";
+                const width      = 10;
+                const resolution = 0 + this.animParam(0, 60, 500);
+                this.drawLine(line1, width, style, resolution);
+                this.drawLine(line2, width, style, resolution);
+
+                this.tick++;
+                window.requestAnimationFrame(ts => this.loop(ts));
+            },
+            drawLine(line, width, style, resolution) {
+                const context = this.context;
                 context.beginPath();
-                context.strokeStyle = "#051560";
-                context.lineWidth = 10;
-                const res           = 60;
-                for (var rad = 0; rad <= Math.PI; rad += Math.PI / res) {
+                context.strokeStyle = style;
+                context.lineWidth   = 10;
+                for (var rad = 0; rad <= Math.PI; rad += Math.PI / resolution) {
                     const vx       = -Math.cos(rad);
                     const vy       = line(vx);
                     const [px, py] = this.projection(vx, vy);
@@ -45,10 +62,14 @@
                         context.lineTo(px, py);
                     }
                 }
-                context.stroke();
 
-                this.tick++;
-                window.requestAnimationFrame(ts => this.loop(ts));
+                // 最後の１点
+                const vx       = -Math.cos(Math.PI);
+                const vy       = line(vx);
+                const [px, py] = this.projection(vx, vy);
+                context.lineTo(px, py);
+
+                context.stroke();
             },
             projection(x, y) {
                 return [(x + 1) / 2 * this.width, (y + 1) / 2 * this.height];
