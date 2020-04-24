@@ -41,7 +41,7 @@
                 this.draw2Line(line1, line2, resolution, (x1, y1, x2, y2) => {
                     const gradient = context.createLinearGradient(0, y1, 0, y2);
                     gradient.addColorStop(0.0, '#FFA63D');
-                    gradient.addColorStop(0.8, '#F7F7F7');
+                    gradient.addColorStop(0.8, '#FFD8AA');
                     return gradient;
                 });
 
@@ -213,6 +213,6 @@
     @import '../../scss/variables';
 
     .canvas {
-        /*background: linear-gradient(to bottom, #253AA7, #4A59A9);*/
+        background-color: #FFD8AA;
     }
 </style>
