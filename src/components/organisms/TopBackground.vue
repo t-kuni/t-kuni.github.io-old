@@ -40,8 +40,8 @@
                 const resolution = 60 + this.animParam(-60, 0, 1500);
                 this.draw2Line(line1, line2, resolution, (x1, y1, x2, y2) => {
                     const gradient = context.createLinearGradient(0, y1, 0, y2);
-                    gradient.addColorStop(0.0, '#4556AD');
-                    gradient.addColorStop(0.8, '#253AA7');
+                    gradient.addColorStop(0.0, '#FFA63D');
+                    gradient.addColorStop(0.8, '#F7F7F7');
                     return gradient;
                 });
 
@@ -213,6 +213,6 @@
     @import '../../scss/variables';
 
     .canvas {
-        background-color: #253AA7;
+        /*background: linear-gradient(to bottom, #253AA7, #4A59A9);*/
     }
 </style>
