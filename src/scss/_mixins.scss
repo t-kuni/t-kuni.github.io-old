@@ -1,0 +1,8 @@
+@import "./variables";
+
+@mixin media-breakpoint-up($name) {
+  $min: map-get($grid-breakpoints, $name);
+  @media (min-width: $min) {
+    @content;
+  }
+}
