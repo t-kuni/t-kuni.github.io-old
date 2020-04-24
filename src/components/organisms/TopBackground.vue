@@ -213,6 +213,6 @@
     @import '../../scss/variables';
 
     .canvas {
-        background-color: #132689;
+        background-color: #253AA7;
     }
 </style>
