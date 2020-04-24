@@ -34,14 +34,14 @@
                 const line1      = lineFactory(waveHeight, waveWidth, angle, shiftX, shiftY);
 
                 const angle2  = 15 + this.animParam(0, 15, 1500);
-                const shiftY2 = 0 + this.animParam(-0.1, 0.1, 900);
+                const shiftY2 = -0.2 + this.animParam(-0.1, 0.1, 900);
                 const line2   = lineFactory(waveHeight, waveWidth, angle2, shiftX, shiftY2);
 
                 const resolution = 60 + this.animParam(-60, 0, 1500);
                 this.draw2Line(line1, line2, resolution, (x1, y1, x2, y2) => {
                     const gradient = context.createLinearGradient(0, y1, 0, y2);
                     gradient.addColorStop(0.0, '#4556AD');
-                    gradient.addColorStop(0.8, '#132689');
+                    gradient.addColorStop(0.8, '#253AA7');
                     return gradient;
                 });
 
