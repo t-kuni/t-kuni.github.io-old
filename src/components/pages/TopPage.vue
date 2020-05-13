@@ -5,11 +5,11 @@
             <div class="content-area">
                 <img src="@/assets/me.jpg" />
                 <p class="name">t-kuni</p>
-                <div class="link-area">
-                    <span class="link-item"><a href="https://twitter.com/t_kuni_" target="_blank"><i class="fab fa-twitter"></i></a></span>
-                    <span class="link-item"><a href="https://github.com/t-kuni" target="_blank"><i class="fab fa-github"></i></a></span>
-                    <span class="link-item"><a href="https://qiita.com/t-kuni" target="_blank">Qiita</a></span>
-                    <span class="link-item"><a href="http://t-kuni.sub.jp" target="_blank">Blog</a></span>
+                <div class="link-area d-flex justify-content-center">
+                    <a href="https://twitter.com/t_kuni_" target="_blank"><div class="link-item twitter"><i class="fab fa-twitter"></i></div></a>
+                    <a href="https://github.com/t-kuni" target="_blank"><div class="link-item github"><i class="fab fa-github"></i></div></a>
+                    <a href="https://qiita.com/t-kuni" target="_blank"><div class="link-item qiita">Qiita</div></a>
+                    <a href="http://t-kuni.sub.jp" target="_blank"><div class="link-item blog">Blog</div></a>
                 </div>
                 <!--
                 <p>スキル： PHP, Laravel, Vue, <router-link :to="{name: 'skills'}">More...</router-link></p>
@@ -93,8 +93,34 @@
     }
 
     .link-area {
+        margin-top: 8px;
+
+        a {
+            color: white;
+        }
+
+        .link-item {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin-left: 5px;
+
+            &.twitter {
+                background-color: #4CA5E6;
+            }
+            &.github {
+                background-color: #24292E;
+            }
+            &.qiita {
+                background-color: #59C500;
+            }
+            &.blog {
+                background-color: #EB4A4C;
+            }
+        }
+
         .link-item:nth-child(n + 2) {
-            padding-left: 5px;
         }
     }
 
